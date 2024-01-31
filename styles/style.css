@@ -69,13 +69,44 @@ body{
     margin-bottom: 1rem;
 }
 
-.other-btn{
+.secondary-btn{
     border: 2px solid var(--primary-color);
     background-color: transparent;
 }
 
 .container-warning{
-    margin-top: 0.625rem;
     font-size: 0.75rem;
     color: var(--tertiary-color);
+}
+
+
+.other-content{
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.other-content-box{
+    padding: 2rem;
+}
+
+.other-content-image{
+    width: 75%;
+}
+.other-content-title{
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+}
+
+.other-content-title-description{
+    color: var(--tertiary-color);
+}
+
+.other-content-text{
+    color: var(--tertiary-color);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.tertiary-btn{
+    display: inline-block;
 }

@@ -2,9 +2,11 @@
 
 :root{
     ---bg-color: #00030C;
+    ---btn-bg-color: #167BF7;
 
-    --title-color: #FFFFFF;
-    --text-color: #F9F9F9;
+    --primary-color: #FFFFFF;
+    --secondary-color: #F9F9F9;
+    --tertiary-color: #C0C0C0;
 
     --main-font:'Inter', sans-serif;
 }
@@ -17,12 +19,63 @@
 
 body{
     background-color: var(---bg-color);
+    color: var(--primary-color);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
-h1{
-    color: var(--title-color);
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-p{
-    color: #C0C0C0;
+.main-content{
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    align-items: center;
+    text-align: center;
+}
+
+.main-content-box{
+    /* Usando rem */
+    /* margin: 8rem 0 0 3rem; */
+
+    /* Usando em */
+    margin: 0 6em;
+}
+
+.main-content-title{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.main-content-image{
+    margin: 1em 0 2em 0;
+}
+
+.container-btn{
+    color: var(--primary-color);
+    border-radius: 8px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.blue-btn{
+    background-color: var(---btn-bg-color);
+}
+
+.other-btn{
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+}
+
+.container-warning{
+    font-size: 0.75rem;
+    color: var(--tertiary-color);
 }

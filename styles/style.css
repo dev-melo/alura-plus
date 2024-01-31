@@ -110,3 +110,54 @@ body{
 .tertiary-btn{
     display: inline-block;
 }
+
+.content-gap{
+    gap: 5rem;
+}
+.devices{
+    text-align: center;
+}
+
+.devices-title{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+.devices-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5rem 0;
+}
+
+.devices-list-item{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.container-footer{
+    margin: 0 7rem;
+    text-align: center;
+}
+
+.footer-list{
+    margin: 2.5rem 0 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 1rem;
+
+}
+
+.footer-list-link-text{
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-text-content{
+    font-family: var(--main-font);
+    color: var(--tertiary-color);
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
